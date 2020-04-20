@@ -1,0 +1,24 @@
+{
+  "name": "employee-manager-cli",
+  "version": "1.0.0",
+  "description": "CLI and MySQL database for employee management. To Run: 'NPM",
+  "main": "application.js",
+  "directories": {
+    "lib": "apps"
+  },
+  "scripts": {
+    "start": "node application.js",
+    "watch": "nodemon application.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:ricardoshaffer/employee-CLI.git"
+  },
+  "author": "Ricardo Shaffer",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.5.2",
+    "mysql": "^2.18.1"
+  }
+}
